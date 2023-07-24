@@ -21,7 +21,7 @@ typedef struct listint_s
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
-void swipper(listint_t **list, listint_t *n1, listint_t *n2);
+listint_t *swap_node(listint_t **list, listint_t *node);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 int partition(int *array, int a, int b, size_t size);
