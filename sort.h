@@ -31,8 +31,7 @@ void shell_sort(int *array, size_t size);
 void _ssort(int *a, int size, int n)
 void cocktail_sort_list(listint_t **list);
 void increase_sort(listint_t **ptr, listint_t **limit, listint_t **list);
-void decrease_sort(listint_t **ptr, listint_t **limit, listint_t **list)
-void cocktail_sort_list(listint_t **list)
+void decrease_sort(listint_t **ptr, listint_t **limit, listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void heap_sort(int *array, size_t size);
